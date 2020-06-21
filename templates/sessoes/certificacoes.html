@@ -1,0 +1,21 @@
+{% extends './base.html' %}
+{% include './navbar.html' %}
+
+
+{% block certificacoes %}
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <div class="w-100">
+      <h2 class="mb-5">Prêmios &amp; Certificações</h2>
+      <ul class="fa-ul mb-0">
+        {% for item in data.awards %}
+        <li>
+          <i class="fa-li fa fa-trophy text-warning"></i>
+          <i class="fa-li fa fa-certificate text-warning"></i>
+          {{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+</section>
+
+{% endblock  %}

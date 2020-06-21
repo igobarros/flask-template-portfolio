@@ -1,8 +1,8 @@
 # Flask template para portifólio
 
-## Todos sabem como é importante ter algum portifólio para divulgar seu perfil para as empresas nos testes seletivos. É imprescendível mostrar seu trabalho de alguma forma para que notem seu serviço, e com esse intuíto o flask template para portifólio foi desenvolvido.
+<p align="justify">Todos sabem como é importante ter algum portifólio para divulgar seu perfil para as empresas nos testes seletivos. É imprescendível mostrar seu trabalho de alguma forma para que notem seu serviço, e com esse intuíto o flask template para portifólio foi desenvolvido.</p>
 
-## O flask template para portifólio é mais voltado ao público de pessoas que não tem um forte perfil de dev, mas queira montar um portifólio útil e agradável.
+<p align="justify">O flask template para portifólio é mais voltado ao público de pessoas que não tem um forte perfil de dev, mas queira montar um portifólio útil e agradável.</p>
 
 ## Como funciona:
 

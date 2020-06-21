@@ -1,0 +1,34 @@
+{% extends './base.html' %}
+{% include './navbar.html' %}
+
+
+{% block workshops %}
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="workshops">
+    <div class="w-100">
+      <h2 class="mb-5">Workshops</h2>
+      <ul class="fa-ul mb-0">
+        {% for _, item in data.workshops.items() %}
+        <li>
+          {% if _ != 'reference' %}
+          <i class="fa-li fa fa-shapes text-info"></i>
+          <strong>{{ item.event }}</strong>
+          {% if item.material != None %}
+          <sup><a href='{{ item.material }}' target="_blank" class="badge badge-pill badge-primary">
+            Material <i class="fa fa-external-link-alt text-light"></i>
+          </a></sup>
+          {% endif %}
+          {% if item.link != None %}
+          <sup><a href='{{ item.link }}' target="_blank" class="badge badge-pill badge-danger">
+            Event site <i class="fa fa-external-link-alt text-light"></i>
+          </a></sup>
+          {% endif %}
+          <br> {{ item.workshop }} 
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends './base.html' %}
+{% include './navbar.html' %}
+
+{% block experiencias %}
+
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <div class="w-100">
+      <h2 class="mb-5">Experiência</h2>
+
+      {% for _, item in data.experience.items() %}
+      {% if _ != 'reference' %}
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+          <h3 class="mb-0">{{ item.position }}</h3>
+          <div class="subheading mb-3">{{ item.company }}</div>
+          <p>{{ item.description }}</p>
+          {% if item.link %}
+          <p><a href="{{ item.link }}">Reference link.</a></p>
+          {% endif %}
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">{{ item.from }} - {{ item.to }}</span>
+        </div>
+      </div>
+      {% else %}
+      <p>Para mais informações visite meu currículo <a href="{{ item }}" target="_blank">aqui.</a>.</p>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+  </section>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends './base.html' %}
+{% include './navbar.html' %}
+
+{% block skills %}
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+    <div class="w-100">
+      <h2 class="mb-5">Skills</h2>
+
+      <div class="subheading mb-3">Liguagens de programação &amp; Ferramentas</div>
+      <ul class="list-inline dev-icons">
+        {% for item in data.tools %}
+        <li class="list-inline-item">
+          <i class="fab fa-{{ item }}"></i>
+        </li>
+        {% endfor %}
+      </ul>
+      
+      <div class="subheading mb-3">Skills extras / Conhecimento</div>
+      <ul class="fa-ul mb-0">
+        {% for item in data.extra_skills %}
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          {{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+{% endblock %}

@@ -1,0 +1,171 @@
+# Profile section
+profile:
+  first_name: Igo
+  last_name: Barros
+  picture: static/img/perfil.png  # Local picture
+  contact:
+    address_one: Teresina, Brasil
+    address_two:
+    phone: (86) 99455-0066
+  email: igopbarros@gmail.com
+  description: >
+    Sempre matenho-me atualizado sobre os assuntos da área de TI, negócios e o mercado de trabalho estrangeiro.
+    Constantemente faço cursos online na área de Inteligência Artificial para me capacitar e ingressar profissionalmente na
+    área.
+
+
+# Social section
+social:
+  github: https://github.com/igobarros/
+  twitter: https://twitter.com/igobarros07
+  linkedin: https://www.linkedin.com/in/igo-pereira-barros-developer/
+
+
+# Experience section
+experience:
+  item0:
+    position: Estágio
+    company: Tribunal Regional do Trabalho da 22ª Região (TRT22)
+    from: Abril 2018
+    to: Março de 2020
+    description: >
+      Estagiei 2 anos como desenvolvedor.
+  item1:
+    position: Estágio
+    company: Instituto de Ensino Superior iCev
+    from: Abril 2020
+    to: Presente
+    description: >
+      No momento estou sendo orientador de disciplina de engenharia de software.
+  item2:
+    position: Cientista de dados
+    company: Dataflow
+    from: Janeiro de 2019
+    to: Presente
+    description: >
+      Dataflow é constituido por uma equipe de data scientists que oferece soluções usando ciência de dados na área da saúde para o Equador. O projeto é voluntário, sem fins lucrativos. O objetivo é ajudar a comunidade no Equador para terem uma melhor qualidade de vida.
+    link: 
+  reference: 
+
+
+# Education section
+education:
+  item1:
+    institution: Estácio
+    program: Ciência da computação
+    description: Bacharelado
+    from: Março 2016
+    to: Julho 2020
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - git-alt
+  - github
+  - linux
+
+extra_skills:
+  - Ciência de dados, Web Scraping
+  - Mysql, Mongodb
+  - Machine leaning, Visualização de dados, visão computacional, Processamento de Linguagem Natural
+  - Estatística, Álgebra
+  - Python, sql
+  - Sklearn, statsmodels, tensorflow, keras, pandas, numpy
+  - Flask, flaskrestfull, DRF
+  - Inglês intermediário
+
+
+# Talks and workshops section
+workshops:
+  item0:
+    event: TRT22
+    workshop: CURSO - DESENVOLVIMENTO WEB COM ANGULAR E SPRINGBOOT
+    material: https://github.com/igobarros/treinamento-TRT22
+    link: http://www.trt22.jus.br/
+  item1:
+    event: Enucomp
+    workshop: WORKSHOP - Processamento Digital de Imagens com Python e Scikit-image
+    material: 
+    link: http://ercemapi2020.enucompi.com.br/Enucompi.html
+  item2:
+    event: Enucomp
+    workshop: WORKSHOP - Processamento Digital de Imagens com Python e Scikit-image
+    material: 
+    link: http://ercemapi2020.enucompi.com.br/Enucompi.html
+  item3:
+    event: Enucomp
+    workshop: WORKSHOP - Deep Learning em Imagens - aplicando CNNs com Keras e TensorFlow
+    material:
+    link: http://ercemapi2020.enucompi.com.br/Enucompi.html
+  item4:
+    event: Codenation
+    workshop: PROGRAMA - Aceleradev Data Science
+    material: 
+    link: https://codenation.dev/
+  item5:
+    event: EnucomPI
+    workshop: EVENTO LOCAL
+    material:
+    link: http://ercemapi2020.enucompi.com.br/Enucompi.html
+  item7:
+    event: Encontro Teresina Hacker Clube & PUG-PI
+    workshop: Palestrante - Aplicando web crawler e machine learning para delinear o perfil político do candidato
+    material: https://github.com/igobarros/PIBIC-and-TCC
+    link:
+  item8:
+    event: RoadSec
+    workshop: EVENTO LOCAL
+    material:
+    link:
+  item9:
+    event: ERIPI
+    workshop: EVENTO LOCAL
+    material:
+    link:
+  item10:
+    event: WEBMEDIA
+    workshop: EVENTO LOCAL
+    material:
+    link:
+  item11:
+    event: Coronathon
+    workshop: Hackathon
+    material: https://github.com/igobarros/coronathon-dataflow
+    link: 
+  reference:
+
+
+# Projects section
+projects:
+  item1:
+    title: Regressão + Streamlit
+    subtitle: Pré-processamento - Regressão com Streamlit
+    description: O objetivo do app é realizar pré-processamento em bases com problemas do tipo regressão
+    link: /app-streamlit
+    github: https://github.com/igobarros/streamlit-codenation
+    img: img-app-streamlit.png
+    tags: [python, streamlit, regressão]
+
+
+# Certifications and awards section
+awards:
+  - UFPI - ENCONTRO DE COMPUTAÇÃO APLICADA - ECOA 2018
+  - Udemy - Redes Neurais Artificiais em Python - 2018
+  - Udemy - Python - Data mining and Machine learning - 2018
+  - Udemy - Python para Data Science e Machine Learning - COMPLETO - 2018
+  - Udemy - Python Programação Orientada a Objetos com Python 3 - 2018
+  - Udemy - Python Scrapy - Capture Dados Web de forma rápida e escalável - 2019
+  - Udemy - Mineração de Emoção em Textos com Python e NLTK - 2019
+  - Udemy - Inteligência Artificial - Buscas em Textos com Python - 2019
+  - Udemy - Deep Learning A-ZT - Hands-On Artificial Neural Networks - 2019
+  - Udemy - Machine Learning A-ZT - Hands-On Python & R In Data Science - 2019
+  - Udemy - Detecção de Faces com Python e OpenCV - 2019
+  - Udemy - Reconhecimento Facial com Python e OpenCV - 2019
+  - Udemy - Curso Completo de NoSQL e MongoDB, para Profissionais SQL - 2019
+  - Udemy - Guia do MongoDB(Google Cloud, NoSQL, Alta disponibilidade) - 2019
+  - ExpoMAKER - 1a Lugar na exposição MakerDay no Senac de Teresina, com o projeto Casa Inteligente - 2019
+  - Udemy - Curso de Data Science - Bootcamp completo em Data Science - 2020
+  - Codenation - Programa Aceleradev - Data Science - 2020
+  - Coronathon - Prêmio de 1ª lugar no coronathon, projeto +emprego - 2020

@@ -1,0 +1,16 @@
+{% extends './base.html' %}
+{% include './navbar.html' %}
+
+
+{% block projetos_detalhe %}
+
+<div class="container">
+
+{{ text|markdown }}
+
+</div>
+
+<!-- footer -->
+{% include "./footer.html" %}
+
+{% endblock %}

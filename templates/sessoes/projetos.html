@@ -1,0 +1,41 @@
+{% extends './base.html' %}
+{% include './navbar.html' %}
+
+
+{% block projetos %}
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+    <div class="w-100">
+      <h2 class="mb-5">Projetos</h2>
+      <!-- Begins card -->
+      <div class="row">
+        {% for _, item in data.projects.items() %}
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <img src="static/img/{{ item.img }}" class="card-img-top" alt="{{ item.title }}">
+            <div class="card-body">
+              <h3 class="card-title">{{ item.title }}</h3>
+              <h5 class="card-title">{{ item.subtitle }}</h5>
+              <p class="card-text">{{ item.description }}</p>
+              <p>
+                {% for tag in item.tags %}
+                  <span class="badge badge-pill badge-secondary">{{ tag }}</span>
+                {% endfor %}
+              </p>
+            </div>
+            <div class="card-footer">
+              {% if item.github != None %}
+              <a href="{{ item.github }}" class="text-dark" target="_blank">
+                <i class="fab fa-github-square fa-2x"></i>
+              </a>
+              {% endif %}
+              <a href="{{ item.link }}" class="btn btn-dark float-right">Descrição do projeto</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+</section>
+
+{% endblock  %}
