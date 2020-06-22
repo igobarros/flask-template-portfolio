@@ -20,7 +20,7 @@ Cada sessão pode ser editada com suas informações pessoais pelo arquivo ```_c
 Vamos detalhar melhor como funciona a sessão de **PROJETOS**, as demais é super fácil de executar.
 
 
-## Sessão PROJETOS
+## Sessão PROJETOS - (TUTORIAL)
 
 Na sessão de projetos terá algumas particularidades. O botão descrição do projeto tem como objetivo abrir uma página com um simples post do projeto selecionado, como se fosse uma ideia de blog.
 
