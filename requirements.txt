@@ -3,4 +3,4 @@ Flask-Markdown==0.3
 gunicorn==20.0.4
 Markdown==3.2.2
 oyaml==0.9
-Pygments==2.6.1
+Pygments==2.7.4
